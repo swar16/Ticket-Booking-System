@@ -88,7 +88,6 @@ public class UserBookingService {
         userFetched.ifPresent(User::printTickets);
     }
 
-    // todo: Complete this function
     public Boolean cancelBooking(String ticketId) {
 
         if (ticketId == null || ticketId.isEmpty()) {
